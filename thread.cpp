@@ -2,5 +2,5 @@
 
 Thread::Thread()
 {
-    // Nguyen Hoang Trung A
+    // Nguyen Hoang Trung AB
 }
