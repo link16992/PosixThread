@@ -89,7 +89,7 @@ int main(int argc, char *argv[])
         thread_args thr;
 
         memset(&thr, 0x0, sizeof(thread_args));
-        strncpy(thr.name, "vimentor", sizeof(thr.name));
+        strncpy(thr.name, "trung", sizeof(thr.name));
 
         ret = pthread_create(&threadID, NULL, printHello, (&thr));
         if(ret)
